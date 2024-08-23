@@ -39,6 +39,9 @@ pip install -r requirements.txt
 ## Setup and Installation
 
 1. Clone the repository.
+    ```
+    git clone https://github.com/iamalex33329/pdf2vectordb.git
+    ```
 
 2. Navigate to the repository directory:
     ```
@@ -54,4 +57,13 @@ pip install -r requirements.txt
     ```
     streamlit run ./app/main.py
     ```
+
+## Database Storage Location
+
+The database is stored in the `collection` directory within the user's home directory. 
+
+- **Windows**: `C:\Users\<username>\collection`
+- **macOS**: `/Users/<username>/collection`
+
+Make sure to replace `<username>` with your actual username.
 
